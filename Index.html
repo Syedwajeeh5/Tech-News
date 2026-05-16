@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech News Finder</title>
+    <link rel="stylesheet" href="style.css">
+    <h1>Tech News</h1>
+     <p>Latest trending stories in tech and programming</p>
+    <div class="search-container">
+        <input type="text" id="search-bar" placeholder="Search articles by title...">
+    </div>
+    <button id="refresh-btn">Fetch Latest Stories</button>
+</head>
+<body>
+    <header>
+        <h1>Tech News</h1>
+        <p>Latest trending stories in tech and programming</p>
+        <button id="refresh-btn">Fetch Latest Stories</button>
+    </header>
+
+    <main>
+        <div id="loading" class="loading">Fetching fresh tech news...</div>
+        <div id="news-container" class="news-grid"></div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
